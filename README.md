@@ -76,9 +76,9 @@ main -DremoteUrl=${SELENOID}
 -Dbrowser=${BROWSER}
 -Dbrowser_version="${VERSION}"
 ```
-## <img src="media/logo/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloud/job/emonovaev_project/)
+## <img src="media/logo/jenkins.svg" title="Allure TestOps" width="4%"/> Созданный проект в [Jenkins](https://jenkins.autotests.cloud/job/amtrsv_Raif_Tests/)
 <p align="center">
-<img title="allure-report" src="media/screen/JenkinsProject.png">
+<img title="allure-report" src="media/screen/jenkins1.png">
 </p>
 
 ### Параметры сборки
@@ -91,31 +91,31 @@ main -DremoteUrl=${SELENOID}
 
 ## <img src="media/logo/jenkins.svg" title="Jenkins" width="4%"/> Страница запуска в Jenkins
 <p align="center">
-<img title="allure-report" src="media/screen/JenkinsJoba.png">
+<img title="allure-report" src="media/screen/jenkins3.png">
 </p>
 
-## <img src="media/logo/allure.svg" title="Allure TestOps" width="4%"/> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/emonovaev_project/18/allure/)
+## <img src="media/logo/allure.svg" title="Allure TestOps" width="4%"/> Пример [Allure-отчета](https://jenkins.autotests.cloud/job/amtrsv_Raif_Tests/4/allure/)
 В отчете отображены пройденные автотесты. На приложенном изображении открыт тест кейс, отображены его шаги, прикреплены логи, скрины и видео
 <p align="center">
-<img title="Allure Overview" src="media/screen/allure-report.png">
+<img title="Allure Overview" src="media/screen/jenkins2.png">
 </p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/4013/dashboards)
+## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/36234)
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>
 На Dashboard в <code>Allure TestOps</code> отображена статистика пройденных тестов.
 
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/screen/allureTestOps.png">
+<img title="Allure TestOps DashBoard" src="media/screen/allureReport.png">
 </p>
 
-## <img src="media/logo/Jira.svg" title="Allure TestOps" width="4%"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1094)
+## <img src="media/logo/Jira.svg" title="Allure TestOps" width="4%"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1111)
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
 <p align="center">
-<img title="Jira Task" src="media/screen/jiraTask.png">
+<img title="Jira Task" src="media/screen/jira1.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/telegram.svg"> Уведомления в Telegram с использованием бота
@@ -123,7 +123,7 @@ main -DremoteUrl=${SELENOID}
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img title="Telegram Notifications" src="media/screen/telegramBot.png"  width="400">
+<img title="Telegram Notifications" src="media/screen/tg11.png"  width="400">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
